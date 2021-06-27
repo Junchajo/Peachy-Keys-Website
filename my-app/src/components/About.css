@@ -1,0 +1,197 @@
+.about {
+	max-width: 100%;
+	padding: 2rem 3rem 2rem 3rem;
+
+	background: #212121;
+}
+
+@media only screen and (max-width: 500px) {
+	.about {
+		padding: 1.5rem ;
+	}
+  }
+  
+
+.about-title {
+	padding-top:4rem;
+	font-size: 5rem;
+    color: #efebe7;
+    text-align: center;
+
+	max-width: 95rem;
+
+
+
+}
+
+.about-info {
+	max-width: 95rem;
+	color: #E3D8D9;
+    margin-top: 1rem;
+    text-align: center;
+
+
+	
+;
+}
+
+
+
+.about {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	
+}
+
+
+
+
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@keyframes hero {
+	from {
+	  opacity:0;
+	  width: 75%;
+	}
+  
+	to {
+	  opacity: 1;
+	  width: 100%;
+	}
+  }
+
+  @import url("https://use.typekit.net/fxj3apw.css");
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.card-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	justify-content: center;
+
+	
+
+}
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(34, 35, 58, 0.5);
+  max-width: 20rem;
+  display: flex;
+  border-radius: 25px;
+  position: relative;
+  margin: .5rem;
+
+  animation-duration: 1s;
+  animation-name: hero;
+
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.card h2 {
+  margin: 0;
+  padding: 0 1rem;
+
+}
+.card .title {
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+
+  animation-duration: .75s;
+  animation-name: hero;
+
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.card .desc {
+  padding: .5rem 1.1rem;
+  font-size: 12px;
+
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+  fill: white;
+}
+
+.img-portada {
+  max-width: 100%;
+}
+
+
+.portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://cdn.dribbble.com/users/428994/screenshots/5059399/geometry1_dribbble.gif");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.portada-two {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-image: url("https://64.media.tumblr.com/77ecae7a599c81f08d251d14d65d1e9f/tumblr_pkplpe2UMM1vbdodoo1_540.gif");
+	background-position: bottom center;
+	background-size: cover;
+  }
+
+  .portada-three {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-image: url("https://media2.giphy.com/media/3o7bu2ptBhTiYHnG7K/giphy.gif?cid=790b76111da32138e4a463151d0bedb8f6a9120104073238&rid=giphy.gif&ct=g");
+	background-position: bottom center;
+	background-size: cover;
+  }
+
+  .portada-four {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-image: url("https://cdn.dribbble.com/users/406059/screenshots/3519581/pattern_dribbble.gif");
+	background-position: bottom center;
+	background-size: cover;
+  }

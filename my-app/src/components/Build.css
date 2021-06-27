@@ -1,0 +1,26 @@
+.buildsection{
+    background-color: #efebe7;
+    max-width: 100%;
+	padding: 2rem 5rem 5rem 5rem;
+}
+.buildHeader{
+    color:#1B1049
+}
+.buildP{
+    color:#1B1049
+}
+
+.buildHeader em{
+    font-family: minion-pro-caption, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #1B1049;
+}
+.buildH3{
+    color: #1B1049;
+}
+@media only screen and (max-width: 500px) {
+	.buildsection {
+		padding: 1.5rem 1.5rem 5rem 1.5rem;
+	}
+  }

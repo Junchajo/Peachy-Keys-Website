@@ -1,0 +1,71 @@
+.app{
+	background-color: #FF4050;
+}
+
+.howsection {
+	max-width: 100%;
+	padding: 2rem 5rem 5rem 5rem;
+
+	background: #1B1049;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.howsection {
+		padding: 1.5rem ;
+	}
+	.app{
+		background-color: #FF4050;
+	}
+  }
+
+h1 {
+	padding-top:4rem;
+	font-size: 4rem;
+	color: #FF4050;
+
+	max-width: 95rem;
+
+	font-family: minion-std-black, serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+p {
+	max-width: 95rem;
+	color: #FF4050;
+	margin-top: 1rem;
+
+	font-family: minion-pro-caption, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	
+
+}
+
+.smallerP{
+	font-family: minion-pro-caption, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	
+}
+
+
+
+ .about-title{
+	 text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+  @import url("https://use.typekit.net/fxj3apw.css");
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
